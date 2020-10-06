@@ -1,0 +1,29 @@
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\1restore_snapshot_152_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\2copy_dir_build_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\3vf_jenkins_agent_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\4create_folder_structure_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\5install_all_TF_ipm_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\6vf_ITM_gui_service_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\7vf_ITM_server_service_win
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\8pdf2afp_APPE_win
+9 h 35 min
+6 h 1 min new TF 2 cazuri
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\9afp2pdf_win
+2 days 8h
+1 day 22h
+1 day 5 h 3.9 cu 2 cazuri
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\10all_pdf2tiff_win
+1 day 5 h BW - 1 day 11 h Color
+20 h 3.9 cu 2 cazuri
+
+cmd /c call C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Scripts\Scripts_win\11compare_tiff_win
+1 h 7 min 2 cazuri
