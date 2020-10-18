@@ -1,8 +1,6 @@
-net use \\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.0\win\ /u:saguaroprint.ro\cmorariu passw0rd12 /p:yes
+net use \\172.27.112.113\sw_transforms\public\ITM\Kit\ITM_3.9.0\ITM_3.9.0-win\cycle9 /u:saguaroprint.ro\cmorariu New42day1 /p:yes
+ 
+mkdir d:\Builds\
 
-set source="\\172.27.112.113\sw_transforms\public\ITM\Kit\IPM_4.9.0\win\"
-set target="c:\Users\Administrator\Transforms\Builds"
-
-FOR /F "delims=" %%I IN ('DIR %source%\*.* /A:-D /O:-D /B') DO COPY %source%\"%%I" %target% & echo %%I & GOTO :END
-:END
-TIMEOUT 4
+copy "\\172.27.112.113\sw_transforms\public\ITM\Kit\ITM_3.9.0\ITM_3.9.0-win\cycle15\*.*" "d:\Builds\"
+echo "\\172.27.112.113\sw_transforms\public\ITM\Kit\ITM_3.9.0\ITM_3.9.0-win\cycle15\*.*" "d:\Builds\"
