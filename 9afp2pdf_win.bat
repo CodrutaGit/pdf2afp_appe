@@ -6,7 +6,7 @@ echo %submition_tool%
 
 set all_folders=e:\OutputTransformPDF2AFP_APPE\win\output\
 echo =============    Transform files from dir and subdir of : %all_folders% ======================================
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_APPE_win%
 echo %itm_ipaddress%
 for /R %all_folders% %%i in (*.afp ) do (
 echo processing.......... %%i

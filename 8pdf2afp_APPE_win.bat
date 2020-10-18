@@ -7,7 +7,7 @@ set folderPDF=e:\TestFiles\PDF\
 
 echo =============    Transform files from dir and subdir of : %folderPDF% ======================================
 
-set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_win%
+set /p itm_ipaddress=< %c:\Users\Administrator\Transforms\itm_ipaddress_APPE_win%
 echo %itm_ipaddress%
 
 echo ++++test1
