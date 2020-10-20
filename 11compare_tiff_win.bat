@@ -5,7 +5,7 @@ time /T >> regr.log
 
 set TTDIR=c:\TESTTOOLS\
 set MASTERDIR=e:\MasterFiles\PDF\
-set CMPDIR=e:\OutputTransformPDF2AFP_APPE\win\output\output_TIFF\
+set CMPDIR=e:\OutputTransformPDF2AFP_APPE\win\output\out_TIFF\
 
 echo running tiffcompare >> regr.log
 set CURDIR=%CD%
@@ -24,8 +24,8 @@ ECHO %TESTOOLS%
 ECHO ====================================================
 
 
-		CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPDF2AFP_APPE\win\output\output_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\output_regression_diff.log
-echo CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPDF2AFP_APPE\win\output\output_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\files.log	
+		CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPDF2AFP_APPE\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\output_regression_diff.log
+echo CALL c:\TESTTOOLS\compare.bat %%i e:\OutputTransformPDF2AFP_APPE\win\output\out_TIFF\%%~pi\%%~ni.tif -method fuzzy -nlines 5 >> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\files.log	
 	) else (
 		echo no output was generated for %%i %CMPDIR%\%%~pi>> C:\Users\Administrator\Transforms\TestPDF2AFP_APPE\Log\log_win\output_notfound_diff.log
 	)	
